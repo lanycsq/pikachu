@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build":"rm -rf dist && parcel build src/test.html --no-minify --public-url ./ ",
+    "serve":"parcel src/test.html"
+  },
+  "name": "pikachu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
